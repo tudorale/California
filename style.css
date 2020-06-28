@@ -1,0 +1,367 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins";
+
+}
+body{
+	overflow-x: hidden !important;
+}
+
+.california{
+	
+	height: 100vh;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background: linear-gradient(rgba(0.5,0.5,0.5,0.5), rgba(0.5,0.5,0.5,0.5)), url("california.jpg");
+}
+.into{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+
+	align-items: center;
+}
+.into a{
+	color: white;
+	text-decoration: none;
+}
+.into a:hover{
+	color: lightgrey;
+	text-decoration: none;
+}
+.into h1{
+	font-size: 3.5rem;
+}
+.into .pro{
+	font-size: 1.5rem;
+	
+	margin-top: 30px;
+}
+.into .me{
+	font-size: 1.5rem;
+	margin-top: 30px;
+} 
+
+.page{
+	width: 80%;
+	padding: 10px;
+	height: 3000px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 10%;
+	top: 90%;
+	align-self: center;
+	box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.65) !important;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.introducere{
+	color: black;
+	margin-top: -100px;
+	top: 5%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.introducere h1{
+	font-size: 2.3rem;
+}
+.introducere p{
+	margin-top: 50px;
+	font-size: 1.4rem;
+}
+.beachimage{
+	width: 500px;
+	margin-top: 50px;
+}
+
+.istorie, .literatura{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.istorie h1{
+	font-size: 2.3rem;
+
+}
+.istorie p{
+	font-size: 1.4rem;
+	margin-top: 50px;
+}
+
+.dece{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.dece h1{
+	font-size: 2.3rem;
+
+}
+.dece p{
+	font-size: 1.4rem;
+	margin-top: 50px;
+}
+
+.literatura h1{
+	font-size: 2.3rem;
+
+}
+.literatura p{
+	font-size: 1.4rem;
+	margin-top: 50px;
+}
+
+
+.image{
+	width: 500px;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 1100px){
+	.literatura p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.dece p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.istorie p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.introducere p{
+		margin-top: 50px;
+		font-size: 1.2rem;
+	}
+}
+
+
+@media only screen and (max-width: 700px){
+	.literatura p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.dece p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.istorie p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.introducere p{
+		margin-top: 50px;
+		font-size: 1.2rem;
+	}
+	
+
+	.literatura h1{
+		font-size: 2rem;
+		
+	}
+	.dece h1{
+		font-size: 2rem;
+		
+	}
+	.istorie h1{
+		font-size: 2rem;
+		
+	}
+	.introducere h1{
+		font-size: 2rem;
+	}
+	.image{
+		width: 400px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 570px){
+	.literatura p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.into h1{
+		font-size: 2.7rem;
+	}
+	.into .pro{
+		font-size: 1.2rem;
+	}
+	.dece p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.istorie p{
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+	.introducere p{
+		margin-top: 50px;
+		font-size: 1.2rem;
+	}
+	
+
+	.literatura h1{
+		font-size: 2rem;
+		
+	}
+	.dece h1{
+		font-size: 2rem;
+		
+	}
+	.istorie h1{
+		font-size: 2rem;
+		
+	}
+	.introducere h1{
+		font-size: 2rem;
+	}
+	.image{
+		display: none;
+	}
+
+	.introducere{
+		margin-top: -100px;
+	}
+
+	.page{
+		height: 2200px;
+	}
+}
+@media only screen and (max-width: 530px){
+	.page{
+		height: 2400px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.literatura p{
+		font-size: 1.1rem;
+		margin-top: 50px;
+	}
+	.dece p{
+		font-size: 1.1rem;
+		margin-top: 50px;
+	}
+	.istorie p{
+		font-size: 1.1rem;
+		margin-top: 50px;
+	}
+	.introducere p{
+		margin-top: 50px;
+		font-size: 1.1rem;
+	}
+	
+
+	.literatura h1{
+		font-size: 1.8rem;
+		
+	}
+	.dece h1{
+		font-size: 1.8rem;
+		
+	}
+	.istorie h1{
+		font-size: 1.8rem;
+		
+	}
+	.introducere h1{
+		font-size: 1.8rem;
+	}
+	.image{
+		display: none;
+	}
+
+	.introducere{
+		margin-top: -100px;
+	}
+
+	.page{
+		height: 2100px;
+	}
+}
+@media only screen and (max-width: 470px){
+	.page{
+		height: 2300px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.literatura p{
+		font-size: 1.1rem;
+		margin-top: 50px;
+	}
+	.dece p{
+		font-size: 1.1rem;
+		margin-top: 50px;
+	}
+	.istorie p{
+		font-size: 1.1rem;
+		margin-top: 50px;
+	}
+	.introducere p{
+		margin-top: 50px;
+		font-size: 1.1rem;
+	}
+	
+
+	.literatura h1{
+		font-size: 1.8rem;
+		
+	}
+	.dece h1{
+		font-size: 1.8rem;
+		
+	}
+	.istorie h1{
+		font-size: 1.8rem;
+		
+	}
+	.introducere h1{
+		font-size: 1.8rem;
+	}
+	.image{
+		display: none;
+	}
+
+	.introducere{
+		margin-top: -100px;
+	}
+
+	.page{
+		height: 2500px;
+		width: 90%;
+		left: 5%;
+	}
+	.into h1{
+		font-size: 2.2rem;
+	}
+}
